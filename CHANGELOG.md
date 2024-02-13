@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added stages to cloud pipeline and added steps to publish modules to Azure Automation DSC.
+- Added support for Azure Guest Configuration.
 
 ### Changed
 
@@ -15,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Migration to Pester 5+.
 - Changed from 'CommonTasks' to 'DscConfig.Demo' for faster build time.
 - Added support for PowerShell 7.
+- Added support for Azure Guest Configuration.
 
 ### Fixed
 
@@ -29,3 +31,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added task `Set_PSModulePath` which required adding also `Build_Module_ModuleBuilder`
   and a `DscWorkshop.psm1` dummy file.
 - Added `TestReferenceRsop` task.
+- Added `DscTagging` config data.
